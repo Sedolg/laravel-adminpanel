@@ -1,28 +1,16 @@
 <?php
 
-namespace App\Models\Pages;
+namespace App\Models;
 
 use App\Models\BaseModel;
 use App\Models\ModelTrait;
-use App\Models\Pages\Traits\Attribute\PageAttribute;
-use App\Models\Pages\Traits\PageRelationship;
+use App\Models\Traits\Page\PageAttributes;
+use App\Models\Traits\Page\PageRelationships;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Page extends BaseModel
-{
-    use ModelTrait,
-        SoftDeletes,
-        PageRelationship,
-        PageAttribute {
-            // PageAttribute::getEditButtonAttribute insteadof ModelTrait;
-        }
-
-    /**
-     * The database table used by the model.
-     *
-     * @var string
-     */
-    protected $table;
+{   
+    use SoftDeletes, ModelTrait, PageRelationships, PageAttributes;
 
     /**
      * The guarded field which are not mass assignable.
@@ -45,6 +33,5 @@ class Page extends BaseModel
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        $this->table = config('module.pages.table');
     }
 }

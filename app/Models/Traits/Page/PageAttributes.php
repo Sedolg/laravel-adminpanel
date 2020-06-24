@@ -1,11 +1,8 @@
 <?php
 
-namespace App\Models\Pages\Traits\Attribute;
+namespace App\Models\Traits\Page;
 
-/**
- * Class PageAttribute.
- */
-trait PageAttribute
+trait PageAttributes
 {
     /**
      * @return string

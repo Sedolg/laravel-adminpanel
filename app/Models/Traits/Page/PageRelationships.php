@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models\Pages\Traits;
+namespace App\Models\Traits\Page;
 
 use App\Models\Auth\User;
 
-trait PageRelationship
+trait PageRelationships
 {
     public function owner()
     {

@@ -86235,7 +86235,7 @@ module.exports = function(module) {
 
 /***/ 2:
 /*!***********************************************************************************************************************************************************************************!*\
-  !*** multi jquery bootstrap popper.js axios sweetalert2 lodash datatables.net datatables.net-bs4 moment moment-timezone eonasdan-bootstrap-datetimepicker-bootstrap4beta select2 ***!
+  !*** multi jquery bootstrap popper.js axios sweetalert2 lodash datatables.net datatables.net-bs4 eonasdan-bootstrap-datetimepicker-bootstrap4beta moment moment-timezone select2 ***!
   \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -86248,9 +86248,9 @@ __webpack_require__(/*! sweetalert2 */"./node_modules/sweetalert2/dist/sweetaler
 __webpack_require__(/*! lodash */"./node_modules/lodash/lodash.js");
 __webpack_require__(/*! datatables.net */"./node_modules/datatables.net/js/jquery.dataTables.js");
 __webpack_require__(/*! datatables.net-bs4 */"./node_modules/datatables.net-bs4/js/dataTables.bootstrap4.js");
+__webpack_require__(/*! eonasdan-bootstrap-datetimepicker-bootstrap4beta */"./node_modules/eonasdan-bootstrap-datetimepicker-bootstrap4beta/src/js/bootstrap-datetimepicker.js");
 __webpack_require__(/*! moment */"./node_modules/moment/moment.js");
 __webpack_require__(/*! moment-timezone */"./node_modules/moment-timezone/index.js");
-__webpack_require__(/*! eonasdan-bootstrap-datetimepicker-bootstrap4beta */"./node_modules/eonasdan-bootstrap-datetimepicker-bootstrap4beta/src/js/bootstrap-datetimepicker.js");
 module.exports = __webpack_require__(/*! select2 */"./node_modules/select2/dist/js/select2.js");
 
 
